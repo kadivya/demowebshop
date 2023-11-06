@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="cart.DWS_AddBookToCart_04_test">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="teardownTheBrowser"/>
+          <include name="addBook_To_Cart"/>
+          <include name="launchingBrowserAndNavigateToApp"/>
+        </methods>
+      </class> <!-- cart.DWS_AddBookToCart_04_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
